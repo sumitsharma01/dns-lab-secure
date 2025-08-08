@@ -115,3 +115,29 @@ All VMs are placed in an **isolated virtual network**, allowing:
 - Restrict zone transfers
 - Chrooted DNS service
 
+## 🎯 Target Audience
+- Students and learners interested in networking, cybersecurity, and systems engineering
+- Professionals looking to understand DNS attacks & mitigations
+- Educators seeking a hands-on DNS security lab
+
+## 🧩 Prerequisites
+- Familiarity with TCP/IP & OSI models
+- Basic Linux commands & configuration
+- Comfort with virtualization software (VirtualBox, VMware, QEMU, etc.)
+- Curiosity and drive to dig deep into how systems communicate
+
+## 📈 Roadmap
+1. Setup VM lab environment
+2. Configure DNS server (basic)
+3. Create and test custom DNS zones
+4. Simulate DNS attacks
+5. Analyze packet flow (tcpdump/Wireshark)
+6. Implement DNSSEC and hardening steps
+7. Document everything with diagrams and demos
+
+## 📌 Contribution & License
+This is an open project for learning and experimentation. Pull requests are welcome if you wish to contribute examples or better hardening strategies.
+
+## 📣 Final Note
+DNS is everywhere — and it’s silently powerful. This project helps you see the invisible, understand the fundamentals, and protect this core layer of the Internet. 🛡️🌍
+
