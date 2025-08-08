@@ -23,3 +23,15 @@ This project explores:
 - Explore and implement security best practices and hardening techniques.
 - Visualize and explain communication across **TCP/IP and OSI models**.
 ---
+
+## 🔧 Technologies & Tools
+
+| Category         | Tools / Technologies          |
+|------------------|-------------------------------|
+| Virtualization   | VirtualBox / VMware    |
+| DNS Server       | CoreDNS    |
+| OS               | Kali Linux   |
+| Packet Analysis  | Wireshark / tcpdump           |
+| Attack Simulation| Scapy / Ettercap / custom scripts |
+| Firewall / Hardening | iptables, ufw, fail2ban   |
+| Programming      | Python, Bash                  |
