@@ -35,3 +35,38 @@ This project explores:
 | Attack Simulation| Scapy / Ettercap / custom scripts |
 | Firewall / Hardening | iptables, ufw, fail2ban   |
 | Programming      | Python, Bash                  |
+
+
+
+## 📦 Project Structure
+
+```bash
+dns-lab-secure/
+│
+├── virtual-lab/              # VMs setup, networking topology, NAT/Bridged configs
+│   ├── attacker-vm/
+│   ├── dns-server-vm/
+│   └── client-vm/
+│
+├── dns-server/               # Custom DNS setup (BIND9 or dnsmasq config files)
+│   └── zone-files/
+│
+├── attacks/                  # Simulated DNS attacks (spoofing, poisoning, etc.)
+│   └── spoofing/
+│   └── amplification/
+│
+├── hardening/                # Firewall rules, DNSSEC, logging configs
+│   └── best-practices.md
+│
+├── tcp-ip-communication/     # Educational diagrams, layer-by-layer analysis
+│   └── layer-analysis.md
+│
+├── scripts/                  # Automation scripts, monitoring, logs
+│   └── dns-monitor.py
+│
+├── docs/                     # Research reports, reading materials, papers
+│   └── dns-security-survey.pdf
+│
+└── README.md                 # Project intro
+```
+
