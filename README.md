@@ -15,3 +15,11 @@ This project explores:
 - Along with the project, we will also be Learning the **TCP/IP model**, **OSI layers**, and **communication between hosts** in real-world networking environments.
 
 ---
+
+## 🧠 Objectives
+
+- Build a functioning DNS server in a virtual lab setup.
+- Research and simulate known DNS attacks (e.g., spoofing, cache poisoning, amplification).
+- Explore and implement security best practices and hardening techniques.
+- Visualize and explain communication across **TCP/IP and OSI models**.
+---
