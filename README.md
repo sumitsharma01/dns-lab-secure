@@ -82,3 +82,15 @@ All VMs are placed in an **isolated virtual network**, allowing:
 - Attacker to intercept/modify packets
 - Secure testing with no impact on real network
 
+## 📚 Learning Modules(Good to Know)
+| Module | Description |
+|--------|-------------|
+| 1. Basics of DNS | A records, MX, CNAME, zone files |
+| 2. TCP/IP & OSI Layers | Layer-by-layer packet flow |
+| 3. DNS Server Setup | Using BIND9 or dnsmasq |
+| 4. DNS Query Simulation | Using dig, nslookup |
+| 5. Attack Simulation | DNS spoofing, amplification |
+| 6. DNS Security Mechanisms | DNSSEC, rate limiting |
+| 7. Hardening the DNS Server | Firewalls, chroot, logging |
+| 8. Monitoring & Logs | Real-time DNS traffic monitoring |
+| 9. Final Project Report | Summarize research + implementation |
