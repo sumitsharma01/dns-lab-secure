@@ -94,3 +94,24 @@ All VMs are placed in an **isolated virtual network**, allowing:
 | 7. Hardening the DNS Server | Firewalls, chroot, logging |
 | 8. Monitoring & Logs | Real-time DNS traffic monitoring |
 | 9. Final Project Report | Summarize research + implementation |
+
+
+
+## 🛡️ Attacks You’ll Simulate
+| Attack Type | Description |
+|-------------|-------------|
+| DNS Spoofing | Trick user into visiting a fake site |
+| Cache Poisoning | Inject malicious IPs into DNS cache |
+| Amplification Attacks | DDoS via recursive queries |
+| NXDOMAIN Attack | Flood server with non-existent domains |
+| DNS Tunneling (Advanced) | Data exfiltration through DNS queries |
+
+## 🔐 Security Hardening
+- DNSSEC implementation
+- Recursion restriction
+- Source IP rate limiting
+- Logging & monitoring
+- Firewall rules (iptables/ufw)
+- Restrict zone transfers
+- Chrooted DNS service
+
