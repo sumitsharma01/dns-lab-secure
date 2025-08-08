@@ -141,3 +141,23 @@ This is an open project for learning and experimentation. Pull requests are welc
 ## 📣 Final Note
 DNS is everywhere — and it’s silently powerful. This project helps you see the invisible, understand the fundamentals, and protect this core layer of the Internet. 🛡️🌍
 
+
+## ✅ Next Steps
+1. **Setup Virtual Environment**
+   - Decide on: VirtualBox / VMware / QEMU
+   - OS Choices:
+     - DNS Server: Ubuntu or Alpine Linux
+     - Attacker: Kali Linux
+     - Client: Ubuntu / Windows
+2. **Decide the DNS Software**
+   - Recommended: **BIND9** (well-documented, secure, robust)
+3. **Build DNS Server**
+   - Basic config
+   - Add zone files
+   - Test using `dig` and `nslookup`
+4. **Begin Simulating Attacks**
+   - Use `scapy`, `ettercap`, or tools like `dnsspoof`
+   - Capture everything using Wireshark
+5. **Start Hardening**
+   - Apply firewalls, logging, DNSSEC
+   - Visualize before/after behavior
