@@ -70,3 +70,15 @@ dns-lab-secure/
 └── README.md                 # Project intro
 ```
 
+
+# 🧪 DNS Lab Topology
+
+## Network Topology
+- **[Client VM]** ---> **[DNS Server VM]** ---> **[Internet (optional)]**
+- **[Attacker VM]** ---> (same network)
+
+All VMs are placed in an **isolated virtual network**, allowing:
+- DNS requests from Client to Server
+- Attacker to intercept/modify packets
+- Secure testing with no impact on real network
+
